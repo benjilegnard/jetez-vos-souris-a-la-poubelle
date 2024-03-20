@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg434"
+   width="150"
+   height="152"
+   viewBox="0 0 150 152"
+   sodipodi:docname="nomouse.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:export-filename="nomouse.png"
+   inkscape:export-xdpi="327.67999"
+   inkscape:export-ydpi="327.67999"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs438" />
+  <sodipodi:namedview
+     id="namedview436"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="3.8006989"
+     inkscape:cx="133.65963"
+     inkscape:cy="74.328434"
+     inkscape:window-width="1900"
+     inkscape:window-height="1026"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg434"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3751"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <rect
+     style="fill:#1e1e2e;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+     id="fond"
+     width="150"
+     height="152"
+     x="0"
+     y="0" />
+  <circle
+     style="fill:#11111b;fill-rule:evenodd;stroke:none;stroke-width:11.1344;stroke-dasharray:none;stroke-opacity:1"
+     id="fond-panneau"
+     cx="75"
+     cy="75"
+     r="68"
+     sodipodi:insensitive="true" />
+  <g
+     id="souris"
+     sodipodi:insensitive="true">
+    <circle
+       style="fill:#bac2de;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.992898"
+       id="souris-haut"
+       cx="60.5"
+       cy="77.5"
+       r="32.5" />
+    <rect
+       style="fill:#bac2de;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="souris-milieu"
+       width="65"
+       height="32"
+       x="28"
+       y="78" />
+    <circle
+       style="fill:#bac2de;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.992898"
+       id="souris-bas"
+       cx="60.5"
+       cy="110.23247"
+       r="32.5" />
+    <path
+       style="fill:none;stroke:#bac2de;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 59.905716,39.972089 c 0,0 -3.355487,-16.444708 1.540085,-22.924358 5.665049,-7.4981097 13.936136,-10.5755523 23.156384,-4.748226 10.69645,6.760306 14.537436,12.253537 22.502905,33.015968 9.73053,25.363158 16.53983,31.312085 23.3705,30.291508 6.98961,-1.044323 7.21442,-9.554135 7.06026,-13.141405 -0.17124,-3.984642 -3.06942,-11.08728 -3.06942,-11.08728"
+       id="fil"
+       sodipodi:nodetypes="csssssc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g440">
+    <circle
+       style="fill:#11111b;fill-rule:evenodd;fill-opacity:1"
+       id="path12866"
+       cx="59.5"
+       cy="59.5"
+       r="4.5" />
+    <circle
+       style="fill:#11111b;fill-rule:evenodd;fill-opacity:1"
+       id="path12866-6"
+       cx="59.5"
+       cy="70"
+       r="4.5" />
+    <rect
+       style="fill:#11111b;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="rect12895"
+       width="9"
+       height="11"
+       x="55"
+       y="59" />
+    <path
+       style="fill:none;stroke:#11111b;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+       d="M 60,76 V 86"
+       id="path15127" />
+    <path
+       style="fill:none;stroke:#11111b;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+       d="M 60,53 V 43"
+       id="path15129" />
+    <path
+       style="fill:none;stroke:#11111b;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+       d="m 25,84 c 0,0 10,1 35,1 25,0 36,-2 36,-2"
+       id="path15131"
+       sodipodi:nodetypes="csc" />
+  </g>
+  <g
+     id="panneau">
+    <ellipse
+       style="fill:none;fill-rule:evenodd;stroke:#f38ba8;stroke-width:7.95067;stroke-dasharray:none;stroke-opacity:1"
+       id="contour"
+       cx="75"
+       cy="76"
+       rx="71.024666"
+       ry="72.024666" />
+    <path
+       style="fill:none;stroke:#f38ba8;stroke-width:7.55906;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M 32.4678,133.68246 115.22038,16.156568"
+       id="trait"
+       sodipodi:nodetypes="cc" />
+  </g>
+</svg>

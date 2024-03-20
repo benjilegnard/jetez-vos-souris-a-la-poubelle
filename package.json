@@ -1,0 +1,22 @@
+{
+  "name": "throw-your-pointing-device-on-the-ground",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@catppuccin/highlightjs": "^0.1.4",
+    "@catppuccin/palette": "^1.1.0",
+    "@types/reveal.js": "^5.0.1",
+    "sass": "^1.72.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.6"
+  },
+  "dependencies": {
+    "reveal.js": "^5.0.5"
+  }
+}
