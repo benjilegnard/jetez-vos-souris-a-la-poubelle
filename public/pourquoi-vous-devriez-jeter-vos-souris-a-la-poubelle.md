@@ -383,14 +383,19 @@ Source: https://itsfoss.com/linux-terminal-shortcuts/
 
 @benjilegnard
 
-<div class="row">
-  <div class="col-6">
-    <a href="https://rivieradev.fr/">
-      <img src="images/riviera-dev.svg" alt="Logo de la conférence Riviera Dev" style="width: 20%; height: auto">
+<div class="qr-codes">
+  <div class="slides-link">
+    <h4>⬇️ Slides ⬇️</h4>
+    <a href="https://github.com/benjilegnard/jetez-vos-souris-a-la-poubelle#README">
+      <img src="images/qrcode-slides.png" alt="QRCode du lien vers les slides">
     </a>
   </div>
-  <div class="col-6">
-    <img src="images/github-logo.png" alt="github" style="width: 20%; height: auto">
+  <img src="images/riviera-dev.svg" style="width: 30%"/>
+  <div class="openfeedback-link">
+    <h4>⬇️ Feedback ⬇️</h4>
+    <a href="https://openfeedback.io/rivieradev24/0/254">
+      <img src="images/qrcode-openfeedback-rivieradev.png" alt="QRCode du lien vers openfeedback">
+    </a>
   </div>
 </div>
 
