@@ -204,13 +204,15 @@ Le premier outil que je voudrais présenter, c'est tmux
 
 
 ### Gestionnaire de fenêtres ? 
-- on est dans linux, tout est configurable / changeable
-- distribution !== environnement
+- on est dans linux, tout est configurable / changeable<!-- .element: class="fragment" -->
+- gérer l'affichage de vos fenêtres UNIQUEMENT<!-- .element: class="fragment" -->
+- en carrelage<!-- .element: class="fragment" -->
 ---
-Dans le cas d'i3 et sway, on parle de gestionnaire de fenêtres tiling, c'est-à-dire que les fenêtres sont disposées de manière non superposée, sans chevauchement, de sorte que toutes les fenêtres soient visibles en permanence.
+- Dans le cas d'i3 et sway, on parle de gestionnaire de fenêtres tiling, c'est-à-dire que les fenêtres sont disposées de manière non superposée, sans chevauchement, de sorte que toutes les fenêtres soient visibles en permanence.
 
 
 ### Un peu d'histoire...
+| | |
 | --- | ------- |
 | X11 | Wayland |
 | i3  | sway    |
@@ -230,11 +232,15 @@ Dans le cas d'i3 et sway, on parle de gestionnaire de fenêtres tiling, c'est-à
 
 - c'est la touche `windows` <kbd>⊞</kbd>
 - ou touche `command` sur mac <kbd>⌘</kbd>
-- `KC_GUI` / Super <!-- .element: class="fragment" -->
+- `KC_GUI` / Super
 
 
 ### Welcome
-// TODO slide. schema
+
+<img src="images/sway-schema.svg"/>
+---
+-la première fois qu'on lance sway ou i3, c'est perturbant
+- il nous manque quelque chose pour lancer nos applications.
 
 
 ### Lancer des applications
