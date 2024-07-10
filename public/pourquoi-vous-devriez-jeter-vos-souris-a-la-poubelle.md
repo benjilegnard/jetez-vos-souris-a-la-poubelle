@@ -3,13 +3,15 @@
 ![image d'un panneau d'interdiction avec ](nomouse.svg)<!-- .element: style="width: 20%; height: auto" -->
 ---
 - Bienvenue dans ce talk un peu troll.
-- Je vais vous parler de comment vous pouvez vous passer de votre souris
+- Je vais vous parler de pourquoi, et surtout comment vous pouvez vous passer de votre souris
 
 
-## Introduction
+## HJKL, la joie du mouvement
+
+⬆️  Titre alternatif ⬆️
 ---
 - Avertissement: ça va être un peu à l'arrache
-- Je voulais répéter un peu ces mois de juin 2024, et au final bon... j'ai pas eu le temps
+- Je voulais répéter un peu durant ce mois de juin 2024, et au final bon... il s'est passé des choses, j'ai pas eu le temps
 
 
 ### Qui-suis-je ?
@@ -46,7 +48,7 @@
 
 ---
 - je parlais d'ergonomie, et très très rapidement
-- j'avais un slide un peu simpliste et condesceendant ou je disais : "apprenez les raccourcis de vos app / utilisez les vim motions"
+- j'avais un slide un peu simpliste et condescendant ou je disais : "apprenez les raccourcis de vos app / utilisez les vim motions"
 - en vrai c'est pas si simple que ça.
 - ici je vais vous parler de comment côté système d'exploitation et logiciels, on peut se passer de souris
 
@@ -54,7 +56,7 @@
 
 ## Pourquoi vouloir se séparer de sa souris ?
 ---
-ou tout du moins éviter de l'utiliser
+- ou tout du moins éviter de l'utiliser le plus possible
 
 
 ### Fatigue / TMS / Tendinite
@@ -75,13 +77,16 @@ Le curseur quand je le cherche :
 
 ![Gif animé de Jurassic Park: "ne bouge plus, il ne nous voit pas si on ne bouge pas"](images/jurassic-park-movement.gif)<!-- .element: style="width: 60%; height: auto" -->
 
+---
+- Grosse perte de temps à chaque fois qu'on passe d'un contexte à l'autre
+
 
 ### Accessibilité
 
 - Comme ça vous testerez l'accessibité clavier de vos sites / apps
 - 😏
 ---
-Merci, fin du talk. au revoir
+- Une grosse partie des problématiques d'accessibilité web est résolue si vos sites sont accessible au clavier.
 
 
 ### La vraie raison
@@ -89,24 +94,30 @@ Merci, fin du talk. au revoir
 - réduire la friction / optimiser le chemin critique<!-- .element: class="fragment" -->
 - vous pensez à faire faire un truc à votre ordinateur<!-- .element: class="fragment" -->
 - il est fait instantanément<!-- .element: class="fragment" -->
----
-le vrai but et intéret
 
+---
+- le vrai but et intéret, c'est d'éliminer toutes les petites frictions qui font perdre du temps
+- instantanéité entre penser l'action et la réaliser = puissance.
 
 
 ### Avertissement #0
 - Je suis une bille 🔵
+
 ---
 - Réellement, les outils que je vais vous présenter là, je ne maitrise pas tout, on va dire 10%.
 - Mais le peu que je maitrise me rends déjà 5 à 10 fois plus efficaces que ce que je ne l'étais avant
+- j'ai appris sur le tard grâce à des collègues incroyables
+- et on continue d'apprendre
 
 
 ### Avertissement #1
 - Ceci n'est pas un talk à propos de __vi / vim / neovim__
 - Mais je vais en parler quand même<!-- .element: class="fragment" -->
+
 ---
 - Qui utilise vim déjà dans la salle ?
 - Qu'est ce que vous faites là, vous êtes déjà convaincu normalement.
+- Je vais en parler parce que c'est un peu mon point de départ de tout ça
 
 
 
@@ -118,6 +129,7 @@ le vrai but et intéret
 
 - <kbd>H</kbd> <kbd>J</kbd> <kbd>K</kbd> <kbd>L</kbd>
 - <kbd>←</kbd> <kbd>↓</kbd> <kbd>↑</kbd> <kbd>→</kbd>
+
 ---
 - c'est historique
 - gauche bas haut droite
@@ -128,14 +140,17 @@ le vrai but et intéret
 - mode `INSERT`
 - mode `VISUEL`
 - et d'autres mais passons<!-- .element: class="fragment" -->
+
 ---
 - contrairement à d'autres... éditeurs de texte, vim a des modes
 - généralement vous êtes en mode édition
+- le contexte est bien plus clair grâce à ces modes
 
 
 ### La touche `<Leader>`
 - concept commun à plein d'applis linux.
-- active une "couche" clavier
+- active une "couche" clavier pleine de commandes
+
 ---
 - Une notion qu'on va retrouver dans pas mal d'applications un peu complexe
 - c'est une touche qui va permettre de lancer des commandes selon la touche qui va suivre
@@ -150,7 +165,6 @@ le vrai but et intéret
 - maintenant on ne fait pas que de l'édition de texte dans la vie, y'a aussi le terminal :D. On va vouloir lancer des commandes
 
 
-
 ### Avertissement #2
 
 - Ceci n'est pas un talk à propos de __tmux__
@@ -163,7 +177,7 @@ le vrai but et intéret
 
 <https://github.com/tmux/tmux/wiki>
 ---
-Le premier outil que je voudrais présenter, c'est tmux
+- Le second outil que je voudrais présenter, c'est tmux
 
 
 ### Multiplexeur de terminal
@@ -171,10 +185,10 @@ Le premier outil que je voudrais présenter, c'est tmux
 - Session
 - Window
 - Panel
+
 ---
 - Tmux est un multiplexeur de terminal: dans un terminal, vous pouvez avoir plusieurs sessions
 - chaque session peut avoir plusieurs fenêtres, chaque fenêtre peut avoir plusieurs panneaux
-
 
 
 ### Démo
@@ -184,6 +198,8 @@ Le premier outil que je voudrais présenter, c'est tmux
 - Split horizontal
 - passer de l'un a l'autre
 - sélectionner du texte dans la sortie
+- mode visuel et copier coller
+- il n'y a pas que le terminal dans la vie, donc niveau système d'exploitation:
 
 
 
@@ -207,8 +223,12 @@ Le premier outil que je voudrais présenter, c'est tmux
 - on est dans linux, tout est configurable / changeable<!-- .element: class="fragment" -->
 - gérer l'affichage de vos fenêtres UNIQUEMENT<!-- .element: class="fragment" -->
 - en carrelage<!-- .element: class="fragment" -->
+
 ---
 - Dans le cas d'i3 et sway, on parle de gestionnaire de fenêtres tiling, c'est-à-dire que les fenêtres sont disposées de manière non superposée, sans chevauchement, de sorte que toutes les fenêtres soient visibles en permanence.
+- Quand on parle de gestionnaire de fenêtres, on parle de la couche qui gère les fenêtres, pas de l'OS en lui-même.
+- Un compositeur de fenêtres est un logiciel qui gère les fenêtres, les déplacements, les redimensionnements, les superpositions, etc.
+- ça n'est pas un environnement bureau complet
 
 
 ### Un peu d'histoire...
@@ -216,16 +236,20 @@ Le premier outil que je voudrais présenter, c'est tmux
 | --- | ------- |
 | X11 | Wayland |
 | i3  | sway    |
+
 ---
-- Quand on parle de gestionnaire de fenêtres, on parle de la couche qui gère les fenêtres, pas de l'OS en lui-même.
-- Un compositeur de fenêtres est un logiciel qui gère les fenêtres, les déplacements, les redimensionnements, les superpositions, etc.
+- X11: serveur d'affichage historique
+- Wayland: tentative de moderniser tout ça (successeur de X11, succès ou pas ? pas le sujet)
+- sway port d'i3 donc les mêmes raccourcis / configurations appliquables à l'un ou l'autre
 
 
 ### Principe 
 - Les workspaces
 - Les fenêtres
+
 ---
 - Organise vos fenêtres d'applications.
+- plutôt simple, principe de Workspace est maintenant dans Windows / MacOS aussi.
 
 
 ### La touche `<Super>`
@@ -234,12 +258,17 @@ Le premier outil que je voudrais présenter, c'est tmux
 - ou touche `command` sur mac <kbd>⌘</kbd>
 - `KC_GUI` / Super
 
+---
+- C'est elle qui par combinaison avec d'autres touches va vous permettre de manipuler sway/i3.
+
 
 ### Welcome
 
 <img src="images/sway-schema.svg"/>
+
 ---
--la première fois qu'on lance sway ou i3, c'est perturbant
+- la première fois qu'on lance sway ou i3, c'est perturbant
+- rien n'est cliquable
 - il nous manque quelque chose pour lancer nos applications.
 
 
@@ -248,10 +277,11 @@ Le premier outil que je voudrais présenter, c'est tmux
 - wofi
 - rofi
 - ou simplement le terminal<!-- .element: class="fragment" -->
+
 ---
 - Quand on arrive dans une session sway, il n'y a pas de fenêtre ouverte, il n'y a pas de barre de tâche, il n'y a pas de menu démarrer, rien n'est cliquable.
 - C'est un peu déroutant au début, mais c'est aussi très libérateur. Vous pouvez tout configurer à votre guise, et vous pouvez tout faire au clavier.
-- example emoji picker, vous pouvez en faire
+- example emoji picker, vous pouvez en faire ce que vous voulez
 
 
 ### Démo
@@ -261,6 +291,8 @@ Le premier outil que je voudrais présenter, c'est tmux
 - redimensionner une fenêtre
 - naviguer entre les fenêtres
 - déplacer une fenêtre
+- envoyer une fenêtre sur un autre workspace
+- stacked / tabbed / split
 - scratchpad
 
 
@@ -281,6 +313,7 @@ Le premier outil que je voudrais présenter, c'est tmux
 ~/.config/waybar/style.css
 
 
+
 ## Vimium
 
 ![vimium](images/vimium-logo.svg)<!-- .element: style="width: 40%; height: auto" -->
@@ -290,8 +323,8 @@ Le premier outil que je voudrais présenter, c'est tmux
 
 ### Extension navigateur
 
-- Firefox
-- Chrome
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/)
+- [Chrome](https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
 
 
 ### Reprends les principes et keymaps de vim
@@ -301,6 +334,11 @@ Le premier outil que je voudrais présenter, c'est tmux
 
 
 ### Démo
+
+---
+- naviguer/easymotion (f)
+- ouvrir un lien nouvel onglet (F)
+- ouvrir un lien de son historique (O)
 
 
 
@@ -334,6 +372,7 @@ Chercher une commande dans l'historique...
 Source: https://itsfoss.com/linux-terminal-shortcuts/
 
 
+
 ## Conclusion
 
 
@@ -350,6 +389,7 @@ Source: https://itsfoss.com/linux-terminal-shortcuts/
 - ergonomie<!-- .element: class="fragment" -->
 - accessibilité<!-- .element: class="fragment" -->
 - personnalisation<!-- .element: class="fragment" -->
+
 ---
 - gain de temps: pas besoin de chercher sa souris
 - performance: pas besoin de bouger sa main, on reste concentré sur la tâche à réaliser
@@ -364,7 +404,8 @@ Source: https://itsfoss.com/linux-terminal-shortcuts/
 - connaissances linux nécéssaires<!-- .element: class="fragment" -->
 - vimium: <!-- .element: class="fragment" -->
   - un site inaccessbile au clavier, sera inaccessible avec vimium<!-- .element: class="fragment" -->
-- sway / tmux / nvim : vous êtes seul avec votre config.<!-- .element: class="fragment" -->
+- sway: cartes graphiques NVIDIA "non-supportées"<!-- .element: class="fragment" -->
+
 ---
 - services en taches de fonc pas nécéssaires
 - galérer avec les agents ssh, service d'impression
@@ -378,6 +419,8 @@ Source: https://itsfoss.com/linux-terminal-shortcuts/
 - Macos:
   - [amethist](https://github.com/ianyh/Amethyst)
   - [yabai](https://github.com/koekeishiya/yabai)
+---
+- Je ne les ai pas testé, donc à vous de vous faire une idée vous même
 
 
 ### Conclusion
@@ -412,7 +455,6 @@ Source: https://itsfoss.com/linux-terminal-shortcuts/
     </a>
   </div>
 </div>
-
 
 ---
 - Vous pouvez m'envoyez vos questions ou m'insulter sur twitter
