@@ -16,4 +16,5 @@ const CustomHmr: () => PluginOption = () => ({
   },
 });
 
-export default defineConfig({ plugins: [CustomHmr()] });
+export default defineConfig({ plugins: [CustomHmr()],
+assetsInclude: ["public/images"],});

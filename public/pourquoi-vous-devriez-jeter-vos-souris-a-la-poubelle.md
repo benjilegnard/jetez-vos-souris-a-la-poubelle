@@ -216,7 +216,7 @@ Le curseur quand je le cherche :
 
 | Windows | MacOS | Linux |
 | - | - | - |
-| <img src="/images/os-windows.webp" class="fragment" /> | <img src="/images/os-macosx.webp" class="fragment" />  | <img src="/images/os-linux.webp" class="fragment" /> |
+| <img src="images/os-windows.webp" class="fragment" /> | <img src="images/os-macosx.webp" class="fragment" />  | <img src="images/os-linux.webp" class="fragment" /> |
 
 
 ### Gestionnaire de fenêtres ? 
