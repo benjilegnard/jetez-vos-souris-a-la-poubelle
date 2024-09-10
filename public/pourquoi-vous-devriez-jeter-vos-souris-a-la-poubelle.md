@@ -101,7 +101,9 @@ Le curseur quand je le cherche :
 
 
 ### Avertissement #0
-- Je suis une bille 🔵
+<img src="/images/noidea-wat.gif" style="width: 40%; height: auto" />
+
+Je suis une bille 🔵
 
 ---
 - Réellement, les outils que je vais vous présenter là, je ne maitrise pas tout, on va dire 10%.
