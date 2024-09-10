@@ -27,21 +27,6 @@
 - l'année dernière j'ai fait le tour de france des conférence tech avec un sujets sur les claviers ergonomiques
 
 
-#### Tech Conférences Tour
-- Camping des speakers 2023
-- __Riviera DEV 2023__ 🌴
-- Voxxed Days Luxembourg 2023
-- Devfest Strasbourg 2023
-- Volcamp 2023
-- BDX/IO 2023
-- Touraine Tech 2024
-- Sunny Tech 2024
----
-- Je l'ai donnée un peu partout.
-- Ce slide est juste là pour flex un peu
-- Y'a des gens qui l'ont vue l'année dernière ? (salle pas climatisée)
-
-
 #### "Construire soi-même son clavier mécanique, idée bizarre ou idée de génie?"
 
 ![Capture d'écran d'une vidéo youtube: "Construire soi-même son clavier mécanique, idée bizarre ou idée de génie?" par Benjamin Legrand, sur la chaine de VoxxedLu](images/benjilegnard-voxxed-lu.png)<!-- .element: style="width: 80%; height: auto" -->
@@ -51,6 +36,20 @@
 - j'avais un slide un peu simpliste et condescendant ou je disais : "apprenez les raccourcis de vos app / utilisez les vim motions"
 - en vrai c'est pas si simple que ça.
 - ici je vais vous parler de comment côté système d'exploitation et logiciels, on peut se passer de souris
+
+
+#### Tech Conférences Tour
+- Camping des speakers 2023
+- Riviera DEV 2023 🌴
+- Voxxed Days Luxembourg 2023
+- Devfest Strasbourg 2023
+- Volcamp 2023
+- BDX/IO 2023
+- Touraine Tech 2024
+- Sunny Tech 2024
+---
+- Je l'ai donnée un peu partout.
+- Ce slide est juste là pour flex un peu
 
 
 
@@ -67,7 +66,7 @@
 
 ### Context-switching
 
-- les devs sont des flemmards
+- saisie clavier / navigation souris
 - changement de contexte
 
 
@@ -92,8 +91,8 @@ Le curseur quand je le cherche :
 ### La vraie raison
 
 - réduire la friction / optimiser le chemin critique<!-- .element: class="fragment" -->
-- vous pensez à faire faire un truc à votre ordinateur<!-- .element: class="fragment" -->
-- il est fait instantanément<!-- .element: class="fragment" -->
+- vous pensez à faire faire un truc à votre ordinateur 🧠<!-- .element: class="fragment" -->
+- il est fait instantanément 🚀<!-- .element: class="fragment" -->
 
 ---
 - le vrai but et intéret, c'est d'éliminer toutes les petites frictions qui font perdre du temps
@@ -113,7 +112,7 @@ Je suis une bille 🔵
 
 
 ### Avertissement #1
-- Ceci n'est pas un talk à propos de __vi / vim / neovim__
+- Ceci n'est pas un talk à propos de __vim__
 - Mais je vais en parler quand même<!-- .element: class="fragment" -->
 
 ---
@@ -316,35 +315,35 @@ Je suis une bille 🔵
 
 
 
-## Vimium
+## Bonuses
+(si on a le temps)
+
+
+### Bonus #0: Vimium
 
 ![vimium](images/vimium-logo.svg)<!-- .element: style="width: 40%; height: auto" -->
 
 <https://vimium.github.io/>
 
 
-### Extension navigateur
+#### Extension navigateur
 
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/)
 - [Chrome](https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
 
 
-### Reprends les principes et keymaps de vim
+#### Reprends les principes <br/>(et keymaps) de vim
 
 - HJKL
 - les modes
 
 
-### Démo
+#### Démo
 
 ---
 - naviguer/easymotion (f)
 - ouvrir un lien nouvel onglet (F)
 - ouvrir un lien de son historique (O)
-
-
-
-## Bonuses
 
 
 ### Bonus #1: lazygit
@@ -404,8 +403,6 @@ Source: https://itsfoss.com/linux-terminal-shortcuts/
 
 - courbe d'apprentissage<!-- .element: class="fragment" -->
 - connaissances linux nécéssaires<!-- .element: class="fragment" -->
-- vimium: <!-- .element: class="fragment" -->
-  - un site inaccessbile au clavier, sera inaccessible avec vimium<!-- .element: class="fragment" -->
 - sway: cartes graphiques NVIDIA "non-supportées"<!-- .element: class="fragment" -->
 
 ---
