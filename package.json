@@ -10,13 +10,13 @@
   },
   "devDependencies": {
     "@catppuccin/highlightjs": "^0.1.4",
-    "@catppuccin/palette": "^1.2.0",
-    "@types/reveal.js": "^5.0.3",
-    "sass": "^1.77.6",
-    "typescript": "^5.5.2",
-    "vite": "^5.3.2"
+    "@catppuccin/palette": "^1.7.1",
+    "@types/reveal.js": "^5.0.5",
+    "sass": "^1.86.1",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.4"
   },
   "dependencies": {
-    "reveal.js": "^5.1.0"
+    "reveal.js": "^5.2.1"
   }
 }
