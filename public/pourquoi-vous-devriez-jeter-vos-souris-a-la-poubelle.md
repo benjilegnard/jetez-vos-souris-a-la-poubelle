@@ -297,24 +297,6 @@ Je suis une bille 🔵
 - scratchpad
 
 
-
-## Personnalisation
-
-🎨
-
-
-### Waybar
-
-
-#### Widgets
-~/.config/waybar/config
-
-
-#### CSS
-~/.config/waybar/style.css
-
-
-
 ## Bonuses
 (si on a le temps)
 
@@ -446,11 +428,11 @@ Source: https://itsfoss.com/linux-terminal-shortcuts/
       <img src="images/qrcode-slides.png" alt="QRCode du lien vers les slides">
     </a>
   </div>
-  <img src="images/riviera-dev.svg" style="width: 30%"/>
+  <img src="images/onepoint.png" width="190" height="36"/>
   <div class="openfeedback-link">
     <h4>⬇️ Feedback ⬇️</h4>
-    <a href="https://openfeedback.io/rivieradev24/0/254">
-      <img src="images/qrcode-openfeedback-rivieradev.png" alt="QRCode du lien vers openfeedback">
+    <a href="https://openfeedback.io/2024-09-20-etech-day/2024-09-20/egTSvRSex18S5YQ3CdlL">
+      <img src="images/qrcode-openfeedback-etech-day.png" alt="QRCode du lien vers openfeedback">
     </a>
   </div>
 </div>
