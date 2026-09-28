@@ -9,13 +9,13 @@
 @use "@catppuccin/palette/scss/mocha" as *;
 @use "../node_modules/reveal.js/css/theme/template/mixins" as mixins;
 
-$link-color: #89dceb;
+$link-color: $sky;
 
 // Inject theme variables (see reveal.js/css/theme/template/settings.scss)
 @use "../node_modules/reveal.js/css/theme/template/settings" with ($background-color: $crust,
 
-  $main-color: #bac2de,
-  $heading-color: #cdd6f4,
+  $main-color: $subtext1,
+  $heading-color: $text,
 
   $main-font-size: 42px,
   $main-font: ("Arial", Helvetica, sans-serif),
@@ -41,7 +41,7 @@ $link-color: #89dceb;
 @import url("https://fonts.bunny.net/css2?family=Poppins:wght@300,700&family=Source+Sans+Pro&display=swap");
 
 // Change text colors against light slide backgrounds
-@include mixins.light-bg-text-color(#222);
+@include mixins.light-bg-text-color($base);
 
 iframe {
   border: none;
@@ -57,11 +57,11 @@ iframe {
 }
 
 kbd {
-  background-color: #f7f7f7;
-  border: 3px solid #ccc;
+  background-color: $text;
+  border: 3px solid $overlay2;
   border-radius: 10px;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
-  color: #333;
+  box-shadow: 0 1px 0 rgba($crust, 0.2), 0 0 0 2px $rosewater inset;
+  color: $base;
   display: inline-block;
   font-size: 0.85em;
   line-height: 1em;
