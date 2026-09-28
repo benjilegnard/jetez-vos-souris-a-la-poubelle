@@ -24,21 +24,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v3
+        uses: actions/checkout@v7
+      - uses: pnpm/setup@v1
         with:
-          version: 10
-      - name: Setup NodeJS
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22.x
-          cache: 'pnpm'
+          version: 11
+          runtime: node@26
+          cache: true
       - name: Install and build
         run: |
           pnpm install
           pnpm run build --base=/jetez-vos-souris-a-la-poubelle/
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: ./dist
   # Deployment job
@@ -51,4 +48,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
